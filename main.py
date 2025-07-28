@@ -1,7 +1,4 @@
 def greet(name):
-    return f"Hello, {name}! Welcome to the project."
-
-def greet(name):
     if not name:
         return "Hello, stranger! No name provided."
     return f"HELLO, {name.upper()}! WELCOME ABOARD!"
