@@ -1,6 +1,7 @@
 def greet(name):
     if not name:
         return "Hello, stranger! No name provided."
+    print("Hiiii")
     return f"HELLO, {name.upper()}! WELCOME ABOARD!"
 
 def calculate_area(length, width):
