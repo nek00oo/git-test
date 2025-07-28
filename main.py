@@ -8,9 +8,10 @@ def calculate_area(length, width):
     return length * width
 
 def get_user_input():
-    name = input("Enter your name: ")
-    length = float(input("Enter rectangle length: "))
-    width = float(input("Enter rectangle width: "))
+    name = input("Enter your username: ")
+    length = float(input("Enter rectangle length : "))
+    width = float(input("Enter rectangle width : "))
+    print("name, lenght, width")
     return name, length, width
 
 if __name__ == "__main__":
