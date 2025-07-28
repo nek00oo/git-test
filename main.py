@@ -5,13 +5,14 @@ def greet(name):
     return f"HELLO, {name.upper()}! WELCOME USER!"
 
 def calculate_area(length, width):
+    print(length)
     return length * width
 
 def get_user_input():
-    name = input("Enter your username: ")
+    name = input("Enter your username, please: ")
     length = float(input("Enter rectangle length : "))
     width = float(input("Enter rectangle width : "))
-    print("name, lenght, width")
+    print("name, lenght, width, shrek, bek")
     return name, length, width
 
 if __name__ == "__main__":
