@@ -1,5 +1,7 @@
 def greet(name):
-    return f"Hello, {name}! Welcome to the project."
+    if not name:
+        return "Hello, stranger! No name provided."
+    return f"HELLO, {name.upper()}! WELCOME ABOARD!"
 
 def calculate_area(length, width):
     return length * width
