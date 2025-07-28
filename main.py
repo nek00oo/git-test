@@ -6,9 +6,9 @@ def calculate_area(length, width):
 
 def get_user_input():
     name = input("Enter your username: ")
-    length = float(input("Enter rectangle length : "))
-    width = float(input("Enter rectangle width : "))
-    print("name, lenght, width")
+    length = float(input("Enter rectangle length: "))
+    width = float(input("Enter rectangle width: "))
+    print("name, width")
     return name, length, width
 
 if __name__ == "__main__":
