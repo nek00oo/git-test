@@ -1,8 +1,7 @@
 def greet(name):
     if not name:
         return "Hello, stranger! No name provided."
-    print("Hiiii")
-    return f"HELLO, {name.upper()}! WELCOME USER!"
+    return f"HELLO, {name.upper()}! WELCOME!"
 
 def calculate_area(length, width):
     print(length)
@@ -11,12 +10,9 @@ def calculate_area(length, width):
 def get_user_input():
     name = input("Enter your username, please: ")
     length = float(input("Enter rectangle length: "))
-    width = float(input("Enter rectangle width : "))
-    print("name, lenght, width, shrek, bek")
+    width = float(input("Enter rectangle width: "))
     return name, length, width
 
 if __name__ == "__main__":
     user_name, user_length, user_width = get_user_input()
-    print(greet("Mark"))
-    print("Commit#2")
     print("Area of rectangle:", calculate_area(5, 3))
